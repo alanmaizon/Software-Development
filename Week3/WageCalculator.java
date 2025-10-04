@@ -1,30 +1,28 @@
 public class WageCalculator {
 
-    double monthlyWage;
-    double weeklyHours;
-    double yearlyWage;
-    double hourlyRate;
+    private double monthlyWage;
+    private double weeklyHours;
+    private double yearlyWage;
+    private double hourlyRate;
 
-    public void setMonthlyWage(
-        double monthlyWage) {
-        this.monthlyWage = monthlyWage;
+    public void setMonthlyWage(double monthlyWage){
+        this.monthlyWage=monthlyWage;
     }
 
-    public void setWeeklyHours(
-        double weeklyHours) {
-        this.weeklyHours = weeklyHours;
+    public void setWeeklyHours(double weeklyHours){
+        this.weeklyHours=weeklyHours;
     }
 
     public void computePushka() {
-        yearlyWage = monthlyWage * 12;
-        hourlyRate = yearlyWage / (weeklyHours * 52);
+        yearlyWage=monthlyWage*12;
+        hourlyRate=yearlyWage/(weeklyHours*52);
     }
 
-    public double getYearlyWage() {
+    public double getYearlyWage(){
         return yearlyWage;
     }
 
-    public double getHourlyRate() {
+    public double getHourlyRate(){
         return hourlyRate;
     }
 }

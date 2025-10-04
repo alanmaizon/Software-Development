@@ -25,9 +25,9 @@ public class SimpleAdditionUserInputApp {
         // Set methods
         add.setX(x);
         add.setY(y);
-        // Compute method with return type void
+        // Compute method
         add.computeAns();
-        // Get method with return type int
+        // Get method
         ans = add.getAns();
         // Output using JOptionPane
         JOptionPane.showMessageDialog(null, "The sum is: " + ans);
