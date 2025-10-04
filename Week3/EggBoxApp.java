@@ -11,7 +11,7 @@
 //fix the code by figuring out what should be in the **** sections
 import javax.swing.JOptionPane;
 public class EggBoxApp{
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		//Class variables
 		int eggs;
 		int boxSize;
