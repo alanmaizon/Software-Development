@@ -3,24 +3,19 @@ public class CineApp {
     public static void main(String[] args) {
 
         int countTickets;
-        String ticket;
         int totalTickets;
-        String age;
         int userAge;
 
         Cine cinema;
         cinema=new Cine();
 
-        ticket=JOptionPane.showInputDialog("Number of tickets:");
-        totalTickets=Integer.parseInt(ticket);
-
+        totalTickets=Integer.parseInt (JOptionPane.showInputDialog("Number of tickets:"));
         cinema.setTotalTickets(totalTickets);
 
         countTickets=0;
 
         while(countTickets<cinema.getTotalTickets()){
-            age=JOptionPane.showInputDialog("Each person's age:");
-            userAge=Integer.parseInt(age);
+            userAge=Integer.parseInt (JOptionPane.showInputDialog("Each person's age:"));
             cinema.setUserAge(userAge);
             cinema.computeTicket();
             countTickets++;
