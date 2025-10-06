@@ -8,17 +8,18 @@ Under 18: 10 euro
 Over 18: 15 euro
 
 
-We start using IPO to understand the I/O and Processes involved in our program. Introducing my excercise that is also part of the Week4 lesson, in this approach, based in that context, I notice the inputs have diferent natures: the number of tickets is a fixed input because it shapes the scope of our computation, but age is for me a pivotal input that reflects an individual condition, together they determine the value of the output. So, I propose code this program starting for how many tickets we need first and asking each person's age to compute the total, as you can see if the flow chart. You can find attached the code for the instantiable and app classes below.
+This file contains the IPO to understand the I/O and Processes involved in our program: my choise is Lab1 that is also part of the Week4 lesson. In this approach I worked the if statement, but also included the concepts of repetition and loops (that will be covered in Week6), I notice the inputs are: the number of tickets (fixed input because it shapes the scope of our computation) and user's age for me can be a pivotal input that reflects an individual condition (and that will be called repeteadly inside a loop). Together they determine the total cost of the tickets, that will be our output. So, I propose code this program starting for how many tickets we need first and asking each person's age to compute the output, as you can see if the flow chart. You can find the name of the files for the instantiable and app classes below.
 
 
 `Cine.java`
 `CineApp.java`
 
+*I use "mermaid" to create flowcharts and class diagrams directly in markdown files, and it renders with its own extension. I find this tool super easy to link nodes with arrows and to desing program logic. *
+
 
 ### IPO
 ``` mermaid
-flowchart TB
-
+flowchart LR
     A([Start])-->B[totalTickets]
     B-->C[countTickets=0]
     C-->D{countTickets<totalTickets?}
@@ -52,3 +53,4 @@ flowchart TB
 
 ```
 
+[Link to Week4 Public Repo](http://github.com/alanmaizon/Software-Development/blob/main/Week4/)
