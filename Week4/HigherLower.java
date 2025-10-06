@@ -11,15 +11,15 @@ public class HigherLower {
         this.randomNum=randomNum;
     }
 
-    public void computeHigherLower() {   // must match the call in the App
-        if (randomNum >= 10) {
-            msg = "higher";
-        } else {
-            msg = "lower";
+    public void computeHigherLower(){
+        if (randomNum >= 10){
+            msg="higher";
+        } else{
+            msg="lower";
         }
     }
 
-    public String getMsg() {
+    public String getMsg(){
         return msg;
     }
 }
