@@ -14,7 +14,7 @@ This file contains the IPO to understand the I/O and Processes involved in our p
 `Cine.java`
 `CineApp.java`
 
-*I use "mermaid" to create flowcharts and class diagrams directly in markdown files, and it renders with its own extension. I find this tool super easy to link nodes with arrows and to desing program logic. *
+*I use **mermaid** to create flowcharts and class diagrams directly in markdown files, and it renders with its own extension in VSCode. I find this tool super easy for designing program logic.*
 
 
 ### IPO
@@ -53,4 +53,4 @@ flowchart LR
 
 ```
 
-[Link to Week4 Public Repo](http://github.com/alanmaizon/Software-Development/blob/main/Week4/)
+This file is available in GitHub [Link to Week4 Public Repo](http://github.com/alanmaizon/Software-Development/blob/main/Week4/)
