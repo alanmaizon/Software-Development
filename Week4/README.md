@@ -7,7 +7,7 @@ The program takes String inputs but will show a FormatException error and crash 
 `Cine.java`
 `CineApp.java`
 
-*I use [**mermaid**](https://mermaid.live/) to create flowcharts and class diagrams directly in markdown files, and it renders beautifully with its own extension in VSCode. I find this tool super easy for designing program logic.*
+*I use [**mermaid**](https://mermaid.live/) to create flowcharts and class diagrams directly in markdown files, it renders beautifully with its own extension in VSCode. I find this tool super easy for designing my program's logic.*
 
 
 ### IPO
