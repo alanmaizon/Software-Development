@@ -2,29 +2,29 @@
 
 ## Lab 4
 
-I came with this idea after a retreat about St. Ignatius spiritual excercises, the idea of designing a game dinamic using nested if statements. It is a very personal project and its exciting. I want to make this challenge the pilot version of a future complete version of this idea.
+I came with this idea after a having a wonderful retreat where I learnt about St. Ignatius' spiritual excercises, the idea was designing the dinamic using nested `if` statements. It is a very engaging story and its exciting to give it a try. You can see the flowchart with the processes involved.
 
 
 ```mermaid
 flowchart TB
-    A[Start: The Principle and Foundation] --> B[Meditation 1: Purpose of Life]
-    B -->|Reflect| C[Meditation 2: God's Love]
-    B -->|Ignore| X[End: Journey cut short]
+    A[Start] --> B{Meditation 1: Purpose of Life}
+    B -->|Reflect| C{Meditation 2: God's Love}
+    B -->|Ignore| G[Reflection]
 
-    C -->|Open Heart| D[Meditation 3: Sin and Mercy]
-    C -->|Stay Closed| Y[Pause: You feel distant]
+    C -->|Open Heart| D{Meditation 3: Sin and Mercy}
+    C -->|Stay Closed| G
 
-    D -->|Seek Forgiveness| E[Meditation 4: The Call to Conversion]
-    D -->|Avoid Guilt| Y
+    D -->|Seek Forgiveness| E{Meditation 4: The Call to Conversion}
+    D -->|Avoid Guilt| G
 
-    E -->|Choose Change| F[Meditation 5: Gratitude]
-    E -->|Resist Change| Y
+    E -->|Choose Change| F{Meditation 5: Gratitude}
+    E -->|Resist Change| G
 
-    F -->|Give Thanks| G[End: Peace and Clarity]
-    F -->|Stay Self-Focused| Y
+    F -->|Give Thanks| H[Encounter]
+    F -->|Stay Self-Focused| G 
 
-    Y --> H[Reflection: Try Again Later]
-    H --> G
+    G --> I[End]
+    H --> I
 ```
 
 ## Leap Year Lab
