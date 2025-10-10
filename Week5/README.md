@@ -2,10 +2,7 @@
 
 ## Lab 4: `Camino.java`
 
-I came with this idea after a having a wonderful retreat where I learnt about St. Ignatius' spiritual excercises, the idea was designing the dinamic using nested `if` statements. It is a very engaging meditation over the gospels and it's worth to give it a try. You can see the flowchart with the processes involved.
-
-Input (yes/no)
-Output (string)
+I came with this idea after a having a wonderful retreat where I learnt about St. Ignatius' spiritual exercises, the idea was designing the dynamic using nested `if` statements. It is a very engaging meditation over the gospels and it's worth to give it a try. You can see the flowchart with the processes involved. Input is basic (yes/no) and the Output is a String.
 
 ```mermaid
 flowchart TB
