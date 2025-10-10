@@ -4,6 +4,8 @@
 
 I came with this idea after a having a wonderful retreat where I learnt about St. Ignatius' spiritual excercises, the idea was designing the dinamic using nested `if` statements. It is a very engaging meditation over the gospels and it's worth to give it a try. You can see the flowchart with the processes involved.
 
+Input (yes/no)
+Output (string)
 
 ```mermaid
 flowchart TB
