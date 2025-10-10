@@ -10,7 +10,7 @@ public class RandomApp {
         rd.setUserInput(userInput);
         rd.computeRandom();
 
-        JOptionPane.showMessageDialog(null, "Computer says "+rd.getRandom());
+        JOptionPane.showMessageDialog(null, "The computer says "+rd.getRandom());
         JOptionPane.showMessageDialog(null, rd.getStr());
     }
 }

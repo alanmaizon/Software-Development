@@ -9,7 +9,7 @@ Output (string)
 
 ```mermaid
 flowchart TB
-    A[Start] --> B{Meditation 1: Purpose of Life}
+    A([Start]) --> B{Meditation 1: Purpose of Life}
     B -->|Reflect| C{Meditation 2: God's Love}
     B -->|Ignore| G[Encouragement]
 
@@ -25,7 +25,7 @@ flowchart TB
     F -->|Give Thanks| H[Encounter]
     F -->|Stay Self-Focused| G 
 
-    G --> I[End]
+    G --> I([End])
     H --> I
 ```
 
