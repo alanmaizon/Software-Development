@@ -10,10 +10,9 @@ start--> totalSub=0 and totalMarks=0,
 take input and start the condition 
 --> for i=1, i<=subjects i++ in loop 
 validation input if mark<100 && mark>0
--->
-store totalMarks=totalMarks+mark, compute mean=totalMarks/totalSub
+--> store totalMarks=totalMarks+mark, compute mean=totalMarks/totalSub
 
-Bonus: I apply the following logic in compute Grade:
+Bonus: I apply the following logic in computeGrade:
 
 if A(mark<=100&&mark>80), 
 if else B(mark<=80&&mark>60), 
@@ -21,7 +20,8 @@ if else C(mark<=60&&mark>40),
 if else D(mark<=40&&mark>20), 
 if else F(mark<=20&&mark>=0)
 
-Take the previously created number guessing game application and make it so that a user has 3 turns
+
+Take the previously created number guessing game application`RandomApp.java` and make it so that a user has 3 turns
 Bonus: The loop should stop if the user gets the correct answer
 Bonus: The game should alter the random number each turn
 

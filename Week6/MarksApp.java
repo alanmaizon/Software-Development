@@ -1,33 +1,32 @@
-import java.util.Scanner;
-
+import javax.swing.JOptionPane;
 public class MarksApp {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        
         Marks mk;
         mk=new Marks();
 
-        System.out.print("Enter number of subjects: ");
-        int totalSub=input.nextInt();
+        int totalSub=Integer.parseInt(
+            JOptionPane.showInputDialog("Enter number of subjects: ")
+        );
         mk.setTotalSubjects(totalSub);
 
         for (int i=1; i<=totalSub; i++) {
-            System.out.print("Enter mark for subject "+i+" (0–100): ");
-            int mark=input.nextInt();
-
-            while (mark < 0 || mark > 100) {
-                System.out.print("Invalid mark. Enter again (0–100): ");
-                mark=input.nextInt();
+            int mark=Integer.parseInt(
+                JOptionPane.showInputDialog("Enter mark for subject "+i+" (0–100): ")
+            );
+            while (mark<0 || mark>100){
+                mark=Integer.parseInt(
+                JOptionPane.showInputDialog("Invalid mark. Enter again (0–100): ")
+            );
             }
-
             mk.addMark(mark);
         }
 
         mk.computeMean();
         mk.computeGrade();
 
-        System.out.printf("%nAverage Result: %.2f%n", mk.getMean());
-        System.out.println("Grade: "+mk.getGrade());
+        JOptionPane.showMessageDialog(null,"Mean "+ mk.getMean());
+        JOptionPane.showMessageDialog(null,"Grade: "+ mk.getGrade());
 
-        input.close();
     }
 }
