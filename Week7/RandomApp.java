@@ -34,7 +34,7 @@ public class RandomApp {
                 }
             }
 
-            JOptionPane.showMessageDialog(null, "Your guesses: " + Arrays.toString(rd.getAttempts()),title, JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Your guesses: "+Arrays.toString(rd.getAttempts()),title, JOptionPane.INFORMATION_MESSAGE);
             int response=JOptionPane.showConfirmDialog(
                 null, "Try again?", title, JOptionPane.YES_NO_OPTION
             );
