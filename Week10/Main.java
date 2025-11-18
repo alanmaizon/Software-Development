@@ -1,8 +1,8 @@
-public class ArrayDetails {
+public class Main {
 
     private int sum;
     private int max;
-    public ArrayDetails() {
+    public Main() {
         sum=0;
         max=0;
     }

@@ -1,9 +1,9 @@
-public class TestArrayDetails {
+public class Test {
     public static void main(String[] args) {
 
         int[] nums = {5, 2, 10, 3};
 
-        ArrayDetails details = new ArrayDetails();
+        Main details = new Main();
 
         details.processArray(nums);
 
